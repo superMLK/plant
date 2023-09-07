@@ -20,22 +20,29 @@
         android:layout_height="165dp"
         android:orientation="vertical">
 
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="location" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="35dp"
             android:orientation="horizontal">
 
-            <TextView
+            <!--<TextView
                 android:id="@+id/label4"
                 android:layout_width="195dp"
                 android:layout_height="wrap_content"
-                android:text="Label" />
+                android:text="類型" />-->
 
-            <TextView
+            <!--<TextView
                 android:id="@+id/Confidence4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Confidence" />
+                android:text="信心指數" />-->
+
         </LinearLayout>
 
         <LinearLayout
@@ -47,13 +54,13 @@
                 android:id="@+id/label1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="0.5" />
 
             <TextView
                 android:id="@+id/Confidence1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="0.5" />
 
         </LinearLayout>
 
@@ -66,13 +73,13 @@
                 android:id="@+id/label2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="0.5" />
 
             <TextView
                 android:id="@+id/Confidence2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="0.5" />
         </LinearLayout>
 
         <LinearLayout
@@ -84,26 +91,55 @@
                 android:id="@+id/label3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="0.5" />
 
             <TextView
                 android:id="@+id/Confidence3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="0.5" />
         </LinearLayout>
     </LinearLayout>
-
-    <Button
-        android:id="@+id/choose"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="選取圖片" />
 
     <Button
         android:id="@+id/classify_image"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="辨識" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!--<Button
+            android:id="@+id/introbutton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:text="如何使用" />-->
+
+        <Button
+            android:id="@+id/introbutton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:text="地圖" />
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:text="清除" />
+
+        <Button
+            android:id="@+id/choose"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:text="選取圖片" />
+
+    </LinearLayout>
 
 </LinearLayout>

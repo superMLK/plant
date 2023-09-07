@@ -20,4 +20,5 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 
+#add
 -keep class androidx.appcompat.widget.** { *; }

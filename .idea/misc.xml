@@ -3,9 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/an37/AndroidStudioProjects/Covid19Identify/app/src/main/res/layout/activity_intro.xml" value="0.2515625" />
-        <entry key="..\:/Users/an37/AndroidStudioProjects/Covid19Identify/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/an37/AndroidStudioProjects/Covid19Identify/app/src/main/res/drawable-v24/blue.xml" value="0.363" />
+        <entry key="..\:/Users/an37/AndroidStudioProjects/Covid19Identify/app/src/main/res/drawable-v24/green.xml" value="0.363" />
+        <entry key="..\:/Users/an37/AndroidStudioProjects/Covid19Identify/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.363" />
+        <entry key="..\:/Users/an37/AndroidStudioProjects/Covid19Identify/app/src/main/res/drawable-v24/indigo.xml" value="0.363" />
+        <entry key="..\:/Users/an37/AndroidStudioProjects/Covid19Identify/app/src/main/res/drawable-v24/orange.xml" value="0.363" />
+        <entry key="..\:/Users/an37/AndroidStudioProjects/Covid19Identify/app/src/main/res/drawable-v24/purple.xml" value="0.363" />
+        <entry key="..\:/Users/an37/AndroidStudioProjects/Covid19Identify/app/src/main/res/drawable-v24/red.xml" value="0.363" />
+        <entry key="..\:/Users/an37/AndroidStudioProjects/Covid19Identify/app/src/main/res/drawable-v24/yellow.xml" value="0.363" />
+        <entry key="..\:/Users/an37/AndroidStudioProjects/Covid19Identify/app/src/main/res/drawable/ic_launcher_background.xml" value="0.257" />
+        <entry key="..\:/Users/an37/AndroidStudioProjects/Covid19Identify/app/src/main/res/drawable/red1.xml" value="0.1215" />
+        <entry key="..\:/Users/an37/AndroidStudioProjects/Covid19Identify/app/src/main/res/layout/activity_intro.xml" value="0.22" />
+        <entry key="..\:/Users/an37/AndroidStudioProjects/Covid19Identify/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/an37/AndroidStudioProjects/Covid19Identify/app/src/main/res/layout/activity_map.xml" value="0.25" />
+        <entry key="..\:/Users/an37/AndroidStudioProjects/Covid19Identify/app/src/main/res/layout/bottom_sheet_dialog.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/an37/AndroidStudioProjects/Covid19Identify/app/src/main/res/layout/fragment_map.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/an37/AndroidStudioProjects/Covid19Identify/app/src/main/res/menu/menu_main.xml" value="0.2515625" />
+        <entry key="..\:/Users/an37/AndroidStudioProjects/Covid19Identify/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2835" />
+        <entry key="..\:/Users/an37/AndroidStudioProjects/Covid19Identify/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2835" />
       </map>
     </option>
   </component>

@@ -8,15 +8,16 @@ pluginManagement {
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
+        //加了這些image cropper才能被添加
         google()
         mavenCentral()
         jcenter()
         maven { url "https://jitpack.io" }
-        maven {         // add this repo to use snapshots
+        maven {
             name 'ossrh-snapshot'
             url 'https://oss.sonatype.org/content/repositories/snapshots'
         }
     }
 }
-rootProject.name = "Covid19Identify"
+rootProject.name = "plant_identify_map"
 include ':app'
